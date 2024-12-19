@@ -41,5 +41,6 @@ I believe in:
 - [coenttb.com](https://coenttb.com) - personal website
 - [@coenttb](https://x.com/coenttb) - x.com/twitter
 - [LinkedIn](https://www.linkedin.com/in/tenthijeboonkkamp)
+- [Ten Thije Boonkkamp](https://tenthijeboonkkamp.nl) - discover the role of legal in the success of life science projects
 
 > Still offering [well-reviewed](https://tenthijeboonkkamp.nl) legal advice to select life science projects. Got something cool? [Let’s talk](https://tenthijeboonkkamp.nl/products).
