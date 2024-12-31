@@ -16,7 +16,7 @@
       "location" : "https://github.com/coenttb/coenttb-web.git",
       "state" : {
         "branch" : "main",
-        "revision" : "60f0e4962469185e01532a9db005174e24affe51"
+        "revision" : "9a1f0266e66a88fbe5e6710e64a19323f908df44"
       }
     },
     {
@@ -49,7 +49,7 @@
     {
       "identity" : "swift-case-paths",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-case-paths.git",
+      "location" : "https://github.com/pointfreeco/swift-case-paths",
       "state" : {
         "revision" : "bc92c4b27f9a84bfb498cdbfdf35d5a357e9161f",
         "version" : "1.5.6"
@@ -220,7 +220,7 @@
     {
       "identity" : "xctest-dynamic-overlay",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay.git",
+      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
       "state" : {
         "revision" : "a3f634d1a409c7979cabc0a71b3f26ffa9fc8af1",
         "version" : "1.4.3"
