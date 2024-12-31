@@ -4,7 +4,7 @@
 
 ## Contributing to swift for the web
 
-I'm contributing to a comprehensive Swift ecosystem for web development:
+I've built [coenttb.com](https://coenttb.com) entirely in Swift and [open-sourced](https://github.com/coenttb/coenttb-com-server) it. It uses the following packages, built for the Swift on web ecosystem:
 
 - [swift-css](https://github.com/coenttb/swift-css) - A type-safe CSS DSL
 - [swift-html](https://github.com/coenttb/swift-html) - HTML DSL with swift-css integration
@@ -12,15 +12,13 @@ I'm contributing to a comprehensive Swift ecosystem for web development:
 - [coenttb-web](https://github.com/coenttb/coenttb-web) - Extended web framework with Vapor integrations
 - [swift-languages](https://github.com/coenttb/swift-languages) - Cross-platform translation library
 
-All of this powers [coenttb.com](https://coenttb.com), built entirely in Swift and [open-sourced](https://github.com/coenttb/coenttb-com-server) to help others skip the headaches I've endured.
-
 ## Current focus
 
 - Advising groundbreaking life sciences projects:
   - [100+ study](https://100plus.nl) at Amsterdam UMC
   - [Alzheimer Genetics Hub](https://alzheimergenetics.org)
   - [DEMENTREE biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/)
-- Building and maintaining the Swift web development ecosystem
+- Contributing to the Swift web development ecosystem
 - Building legal tech (in _stealth_)
 - Writing about the intersection of law, technology, and startup life
 
@@ -41,5 +39,6 @@ I believe in:
 - [coenttb.com](https://coenttb.com) - personal website
 - [@coenttb](https://x.com/coenttb) - x.com/twitter
 - [LinkedIn](https://www.linkedin.com/in/tenthijeboonkkamp)
+- [Ten Thije Boonkkamp](https://tenthijeboonkkamp.nl) - discover the role of legal in the success of life science projects
 
 > Still offering [well-reviewed](https://tenthijeboonkkamp.nl) legal advice to select life science projects. Got something cool? [Let’s talk](https://tenthijeboonkkamp.nl/products).
