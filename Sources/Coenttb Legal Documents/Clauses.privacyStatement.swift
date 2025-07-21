@@ -9,7 +9,10 @@ import Coenttb_Web
 
 extension Clauses {
     public static func privacyStatement(
-        entity: (name: String, x: Void),
+        entity: (
+            name: String,
+            website: String
+        ),
         ISO_27001_certified: Bool = false
     )->Self {
         return [
@@ -36,8 +39,8 @@ extension Clauses {
                 content: HTMLMarkdown {#"""
                 \#(
                     TranslatedString(
-                        dutch: "Onze website, tenthijeboonkkamp.nl, wordt gebruikt om algemene informatie over \(entity.name) te verstrekken. tenthijeboonkkamp.nl wordt gehost door Heroku in zijn Europese regio.",
-                        english: "Our website, tenthijeboonkkamp.nl, is used to provide general information on \(entity.name). tenthijeboonkkamp.nl is hosted by Heroku on its Europe region."
+                        dutch: "Onze website, \(entity.website), wordt gebruikt om algemene informatie over \(entity.name) te verstrekken. \(entity.website) wordt gehost door Heroku in zijn Europese regio.",
+                        english: "Our website, \(entity.website), is used to provide general information on \(entity.name). \(entity.website) is hosted by Heroku on its Europe region."
                     )
                 )
                 
@@ -104,10 +107,10 @@ extension Clauses {
                 \#(
                     TranslatedString(
                         dutch: """
-                        Wanneer je tenthijeboonkkamp.nl bezoekt, worden er cookies op je computer geplaatst. \(entity.name) gebruikt twee soorten cookies:
+                        Wanneer je \(entity.website) bezoekt, worden er cookies op je computer geplaatst. \(entity.name) gebruikt twee soorten cookies:
                         """,
                         english: """
-                        When you visit tenthijeboonkkamp.nl, cookies are placed on your computer. \(entity.name) uses two types of cookies:
+                        When you visit \(entity.website), cookies are placed on your computer. \(entity.name) uses two types of cookies:
                         """
                     )
                 )
@@ -268,8 +271,8 @@ extension Clauses {
                 
                 \#(
                     TranslatedString(
-                        dutch: "Voor dit laatste doel delen we je naam, e-mailadres en interessegebieden met Advanced Computer Software Group Ltd., onze e-mailprovider voor dit soort communicatie. Als je nog geen abonnee bent, kun je je abonneren door een e-mail te sturen naar info@tenthijeboonkkamp.nl. Je kunt je altijd afmelden voor het ontvangen van nieuwsbrieven of je voorkeuren wijzigen door een e-mail naar hetzelfde adres te sturen.",
-                        english: "For the last purpose, we share your name, email address and areas of interest with Advanced Computer Software Group Ltd., who are our emailing provider for these kinds of communications. If you are not yet a subscriber, you can subscribe by sending an email to info@tenthijeboonkkamp.nl. You can always unsubscribe from receiving newsletters or change your preferences by sending an email to the same address."
+                        dutch: "Voor dit laatste doel delen we je naam, e-mailadres en interessegebieden met Advanced Computer Software Group Ltd., onze e-mailprovider voor dit soort communicatie. Als je nog geen abonnee bent, kun je je abonneren door een e-mail te sturen naar info@\(entity.website). Je kunt je altijd afmelden voor het ontvangen van nieuwsbrieven of je voorkeuren wijzigen door een e-mail naar hetzelfde adres te sturen.",
+                        english: "For the last purpose, we share your name, email address and areas of interest with Advanced Computer Software Group Ltd., who are our emailing provider for these kinds of communications. If you are not yet a subscriber, you can subscribe by sending an email to info@\(entity.website). You can always unsubscribe from receiving newsletters or change your preferences by sending an email to the same address."
                     )
                 )
 
@@ -357,8 +360,8 @@ extension Clauses {
                 content: HTMLMarkdown {#"""
                 \#(
                     TranslatedString(
-                        dutch: "In situaties waarin \(entity.name) persoonsgegevens overdraagt aan andere partijen in landen buiten de EU/EER zonder een adequaatheidsbesluit, is de overdracht meestal noodzakelijk voor het vaststellen, uitoefenen of verdedigen van juridische claims. Anders zal \(entity.name) ervoor zorgen dat het passende waarborgen biedt voor deze overdracht in overeenstemming met de AVG. Je kunt contact opnemen met privacy@tenthijeboonkkamp.nl voor meer informatie over deze waarborgen.",
-                        english: "In circumstances where \(entity.name) transfers personal data to other parties, in those countries outside of the EU/EEA without an adequacy decision, transfer is usually necessary for the establishment, exercise or defence of legal claims. Otherwise, \(entity.name) will ensure that it provides appropriate safeguards for this transfer in accordance with the GDPR. You can contact privacy@tenthijeboonkkamp.nl for more information about these safeguards."
+                        dutch: "In situaties waarin \(entity.name) persoonsgegevens overdraagt aan andere partijen in landen buiten de EU/EER zonder een adequaatheidsbesluit, is de overdracht meestal noodzakelijk voor het vaststellen, uitoefenen of verdedigen van juridische claims. Anders zal \(entity.name) ervoor zorgen dat het passende waarborgen biedt voor deze overdracht in overeenstemming met de AVG. Je kunt contact opnemen met privacy@\(entity.website) voor meer informatie over deze waarborgen.",
+                        english: "In circumstances where \(entity.name) transfers personal data to other parties, in those countries outside of the EU/EEA without an adequacy decision, transfer is usually necessary for the establishment, exercise or defence of legal claims. Otherwise, \(entity.name) will ensure that it provides appropriate safeguards for this transfer in accordance with the GDPR. You can contact privacy@\(entity.website) for more information about these safeguards."
                     )
                 )   
                 """#}
@@ -385,8 +388,8 @@ extension Clauses {
                 content: HTMLMarkdown {#"""
                 \#(
                     TranslatedString(
-                        dutch: "Je hebt te allen tijde het recht om inzage, correctie, verwijdering of beperking van de verwerking van je persoonsgegevens door \(entity.name) te verzoeken. Daarnaast heb je in sommige gevallen het recht om je gegevens in een gestructureerd formaat te ontvangen (d.w.z. gegevensoverdraagbaarheid). Stuur je verzoek, evenals andere privacy-gerelateerde vragen die je hebt, naar onze Functionaris Gegevensbescherming via dpo@tenthijeboonkkamp.nl. Je hebt ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens.",
-                        english: "You are entitled at any time to request inspection, correction, removal or restriction of the processing of your personal data by \(entity.name). In addition, in some cases you have the right to receive your data in a structured format (i.e., data portability). Please send your request, as well as other privacy-related questions you might have, to our Data Protection Officer at dpo@tenthijeboonkkamp.nl. You also have the right to lodge a complaint with the Dutch Data Protection Authority (*Autoriteit Persoonsgegevens*)."
+                        dutch: "Je hebt te allen tijde het recht om inzage, correctie, verwijdering of beperking van de verwerking van je persoonsgegevens door \(entity.name) te verzoeken. Daarnaast heb je in sommige gevallen het recht om je gegevens in een gestructureerd formaat te ontvangen (d.w.z. gegevensoverdraagbaarheid). Stuur je verzoek, evenals andere privacy-gerelateerde vragen die je hebt, naar onze Functionaris Gegevensbescherming via dpo@\(entity.website). Je hebt ook het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens.",
+                        english: "You are entitled at any time to request inspection, correction, removal or restriction of the processing of your personal data by \(entity.name). In addition, in some cases you have the right to receive your data in a structured format (i.e., data portability). Please send your request, as well as other privacy-related questions you might have, to our Data Protection Officer at dpo@\(entity.website). You also have the right to lodge a complaint with the Dutch Data Protection Authority (*Autoriteit Persoonsgegevens*)."
                     )
                 )
                 """#}
