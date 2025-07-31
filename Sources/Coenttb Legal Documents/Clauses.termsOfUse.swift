@@ -133,7 +133,7 @@ extension Clauses {
                         topic: .init(
                             dutch: "deze Gebruiksvoorwaarden",
                             english: "these Terms of Use"
-                        )
+                        ), entity: entity.name
                     )
                 )
                 """#}
