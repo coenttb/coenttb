@@ -70,10 +70,11 @@ Type-safe HTML & CSS DSL with compile-time validation. Build web pages like Swif
 - [**swift-document-templates**](https://github.com/coenttb/swift-document-templates) - Business document generation
 
 ### 🔧 Developer Tools
-- [**swift-environment-variables**](https://github.com/coenttb/swift-environment-variables) ⭐ 4 - Type-safe env var management
+- [**swift-resource-pool**](https://github.com/coenttb/swift-resource-pool) ⭐ 1 - Production-ready resource pooling with FIFO fairness
+- [**swift-throttling**](https://github.com/coenttb/swift-throttling) - Security-first rate limiting with exponential backoff
+- [**swift-translating**](https://github.com/coenttb/swift-translating) - Type-safe internationalization for 180+ languages
+- [**swift-environment-variables**](https://github.com/coenttb/swift-environment-variables) ⭐ 4 - Type-safe environment variable management
 - [**swift-jwt**](https://github.com/coenttb/swift-jwt) - JWT creation and verification
-- [**swift-password-validation**](https://github.com/coenttb/swift-password-validation) - Comprehensive password rules
-- [**swift-sitemap**](https://github.com/coenttb/swift-sitemap) - XML sitemap generation
 
 ## 🔮 Upcoming Projects
 
