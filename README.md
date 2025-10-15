@@ -1,48 +1,108 @@
 # Coen ten Thije Boonkkamp
 
-**Building the future of Swift web development, one type-safe function at a time.**
+**Lawyer • Swift Developer • Founder**
 
-I'm pioneering server-side Swift through production systems that prove the language's potential beyond iOS. My work demonstrates that Swift's type safety and expressiveness make it ideal for building robust web applications.
+I see a future where no person again faces the unjust reality that economic differences significantly dictate legal outcomes. To reach that future, we need technology that makes legal services accessible and affordable.  
 
-## 🚀 Open Source Ecosystem
+Another reality is that the infrastructure to reach this, just isn't there yet.
 
-### Production Applications
-- [**coenttb.com**](https://github.com/coenttb/coenttb-com-server) ⭐ 7 - Full-stack Swift website running in production
-- [**Boiler**](https://github.com/coenttb/boiler) - Batteries-included Swift web framework with sensible defaults
+That's why I build type-safe Swift web infrastructure—from PostgreSQL queries to HTML rendering, from payments infrastructure to email. 90+ open source packages working together in production. Pioneering server-side Swift through real-world systems that prove the language's potential beyond iOS.
 
-### Core Web Infrastructure
-- [**swift-html**](https://github.com/coenttb/swift-html) ⭐ 13 - Type-safe HTML DSL with integrated CSS support
-  - [swift-css-types](https://github.com/coenttb/swift-css-types) - Complete CSS domain model
-  - [swift-html-types](https://github.com/coenttb/swift-html-types) - HTML type definitions
-- [**swift-html-to-pdf**](https://github.com/coenttb/swift-html-to-pdf) ⭐ 42 - Generate PDFs from HTML (my most-starred package)
+And I plan to take all my learnings back to legal. But first:
+
+## My contributions to the Swift open source ecosystem
+
+### 🎯 Flagship Projects
+
+**[swift-html](https://github.com/coenttb/swift-html)** ⭐ 23 - The Swift HTML package
+Type-safe HTML & CSS DSL with compile-time validation. Build web pages like SwiftUI views.
+- Zero runtime overhead, SwiftUI-like syntax
+- First-class dark mode support
+- Complete CSS type system
+
+**[swift-html-to-pdf](https://github.com/coenttb/swift-html-to-pdf)** ⭐ 47
+*The fastest HTML to PDF library for Swift.* 1,939 PDFs/second with 35MB memory.
+- Concurrent rendering with WebView pooling
+- Swift 6 strict concurrency
+- Type-safe HTML integration
+
+**[swift-records](https://github.com/coenttb/swift-records)** ⭐ 5 - The Swift PostgreSQL package
+- High-level database layer combining type-safe queries with PostgresNIO's performance
+- Inspired by GRDB's elegance, built for production PostgreSQL applications
+- Complete transaction support, migrations, and testing infrastructure
+
+**[swift-structured-queries-postgres](https://github.com/coenttb/swift-structured-queries-postgres)** ⭐ 1 - Type-safe PostgreSQL query builder
+- Compile-time SQL validation, zero runtime overhead
+- 558 comprehensive tests with SQL snapshots
+- Full PostgreSQL feature support (JSONB, CTEs, window functions)
+
+**[swift-identities](https://github.com/coenttb/swift-identities)** - The Swift Identity & Authentication Package
+- Complete auth methods (email/password, tokens, API keys)
+- Multi-factor authentication (TOTP, SMS, email, WebAuthn)
+- PostgreSQL backend with secure token management
+
+**[coenttb-com-server](https://github.com/coenttb/coenttb-com-server)** ⭐ 7
+*Production Swift website.* 100% Swift, type-safe from database to DOM.
+- Demonstrates modern Swift web architecture
+- Real-world hypermodular design
+- Powers [coenttb.com](https://coenttb.com)
+
+### 🔌 Production-Ready SDKs
+
+**[swift-stripe](https://github.com/coenttb/swift-stripe)** - The Swift Stripe SDK
+- 48 modules covering entire Stripe API
+- Production-ready with dependency injection
+- Used in production at coenttb.com
+
+**[swift-mailgun](https://github.com/coenttb/swift-mailgun)** - The Swift Mailgun SDK
+- Type-safe HTML email generation
+- Comprehensive API coverage (Messages, Domains, Templates, Webhooks)
+- Swift 6 support with async/await
+
+**[swift-github](https://github.com/coenttb/swift-github)** - The Swift GitHub SDK
+- Repository analytics and management
+- Traffic metrics, engagement stats
+- High-performance async/await design
+
+### 🛠 Core Infrastructure
 - [**swift-server-foundation**](https://github.com/coenttb/swift-server-foundation) - Core server development tools
 - [**swift-web-foundation**](https://github.com/coenttb/swift-web-foundation) - Web development utilities
-
-### Business-Specific Libraries
-- [**coenttb-mailgun**](https://github.com/coenttb/coenttb-mailgun) - Type-safe Mailgun SDK
-- [**coenttb-stripe**](https://github.com/coenttb/coenttb-stripe) - Complete Stripe integration
 - [**swift-document-templates**](https://github.com/coenttb/swift-document-templates) - Business document generation
 
-### Developer Tools
+### 🔧 Developer Tools
 - [**swift-environment-variables**](https://github.com/coenttb/swift-environment-variables) ⭐ 4 - Type-safe env var management
 - [**swift-jwt**](https://github.com/coenttb/swift-jwt) - JWT creation and verification
 - [**swift-password-validation**](https://github.com/coenttb/swift-password-validation) - Comprehensive password rules
 - [**swift-sitemap**](https://github.com/coenttb/swift-sitemap) - XML sitemap generation
 
+## 🔮 Upcoming Projects
+
+**[Boiler](https://github.com/coenttb/boiler)** - Batteries-included Swift web framework
+- Minimal API: web server in 15 lines of Swift
+- Type-safe routing and HTML generation
+- Built on Vapor with opinionated defaults
+- Perfect for rapid prototyping and production apps
+- *Currently in private alpha (v0.1.0)*
+
+**[RepoTraffic.com](https://github.com/coenttb/repotraffic-com)** - GitHub repository analytics platform
+- Store and analyze GitHub traffic data beyond 14-day limit
+- Visual traffic trends and engagement metrics
+- Built with full-stack Swift
+- *Coming soon*
+
 ## 💼 Professional Work
 
-**Legal Technology Advisor** - Bridging law and code for groundbreaking life sciences:
+**Legal Advisor** - Bridging law and code for groundbreaking life sciences:
 - [100+ Study](https://100plus.nl) - Amsterdam UMC's pioneering longevity research
 - [Alzheimer Genetics Hub](https://alzheimergenetics.org) - Global genetics collaboration platform
 - [DEMENTREE Biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/) - Advanced dementia research infrastructure
 
 ## 📊 Impact
 
-- **70+ open source packages** demonstrating hypermodular architecture
+- **90+ open source packages** demonstrating hypermodular architecture
 - **Production systems** serving real users, not just demos
 - **Swift 6.0 strict concurrency** throughout entire ecosystem
 - **Type-safe from database to DOM** - compile-time guarantees everywhere
-- **Dual licensing strategy** - Apache 2.0 for `swift-*`, AGPL for `coenttb-*`
 
 ## 🎯 Philosophy
 
@@ -70,4 +130,4 @@ I build tools that make wrong things impossible. Every abstraction removes entir
 
 ---
 
-*Currently accepting select consulting engagements in Swift development and legal technology. Have an interesting challenge? [Let's talk](https://coenttb.com/contact).*
+*Currently accepting select consulting engagements in Swift, breakthrough life science projects, or legal tech. Have an interesting challenge? [Let's talk](https://coenttb.com/contact).*
