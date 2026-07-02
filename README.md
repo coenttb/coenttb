@@ -22,55 +22,19 @@ I take on consulting and contract engagements in:
 
 **Contact:** [coen@coenttb.com](mailto:coen@coenttb.com)
 
-## My contributions to the Swift open source ecosystem
+## Selected work
 
-The Swift Institute ecosystem is in public alpha — released repository by repository and under active stabilization.
+The Swift Institute ecosystem is in public alpha — released repository by repository.
 
-### Flagship Projects
+| Project | What it is |
+|---|---|
+| [swift-pdf](https://github.com/swift-foundations/swift-pdf) | PDF generation from HTML views and Markdown — successor to swift-html-to-pdf |
+| [swift-html](https://github.com/swift-foundations/swift-html) | Type-safe HTML, CSS, and SVG, grounded in the WHATWG and W3C specs |
+| [swift-file-system](https://github.com/swift-foundations/swift-file-system) | Typed filesystem operations — scoped handles, atomic writes, zero-copy reads |
+| [swift-io](https://github.com/swift-foundations/swift-io) | Async I/O executor isolating blocking syscalls — benchmarked against NIOThreadPool |
+| [swift-standards](https://github.com/swift-standards/swift-standards) | The standard-library extensions every specification package builds on |
 
-**[swift-pdf](https://github.com/swift-foundations/swift-pdf)** - PDF document generation for Swift
-Generates PDF documents from HTML views and Markdown authored with a Swift result-builder DSL. Evolved successor to swift-html-to-pdf, transferred with its full history and tags.
-- Tables with colspan/rowspan and automatic document outlines
-- CSS styling and atomic file writing
-- Single `import PDF`
-
-**[swift-html](https://github.com/swift-foundations/swift-html)** - Type-safe HTML, CSS, and SVG for Swift
-One unified import for HTML generation, grounded in the WHATWG and W3C specifications.
-- Compile-time validation of markup and styles
-- Re-exports HTML rendering, CSS, and SVG packages built on swift-standards
-- Optional internationalization via package traits
-
-**[swift-file-system](https://github.com/swift-foundations/swift-file-system)** - Typed filesystem operations for Swift
-A `File` value type for reading, writing, scoped handles, atomic writes, and directory traversal.
-- Typed throws end-to-end
-- Zero-copy reads and crash-safe atomic writes
-- Sync and async surfaces on a dedicated I/O pool
-
-**[swift-io](https://github.com/swift-foundations/swift-io)** - Async I/O executor for Swift
-Isolates blocking syscalls from Swift's cooperative thread pool.
-- Dedicated worker threads with bounded queues
-- Deterministic shutdown semantics
-- Benchmarked against NIOThreadPool
-
-**[swift-linter](https://github.com/swift-foundations/swift-linter)** - SwiftSyntax-based AST linter
-Lints what a regex on source text cannot express.
-- Rule-pack-agnostic engine with per-package configuration
-- Command-line runner and SARIF output
-- Reusable CI workflow consumed across the ecosystem
-
-**[swift-standards](https://github.com/swift-standards/swift-standards)** - Extensions to the Swift standard library
-The anchor package of the standards layer — every specification package builds on it.
-- Foundation-free
-- Strict memory safety and typed throws
-- Shared grounding for RFC, ISO, W3C, and WHATWG implementations
-
-### Earlier work
-
-Server-side Swift packages that power production systems, including [coenttb.com](https://coenttb.com):
-
-- [**swift-records**](https://github.com/coenttb/swift-records) - Type-safe PostgreSQL database layer
-- [**swift-stripe**](https://github.com/coenttb/swift-stripe) - Stripe SDK for server-side Swift
-- [**coenttb-com-server**](https://github.com/coenttb/coenttb-com-server) - 100% Swift production website, type-safe from database to DOM
+Earlier server-side Swift work — [swift-records](https://github.com/coenttb/swift-records), [swift-stripe](https://github.com/coenttb/swift-stripe), and the [production server](https://github.com/coenttb/coenttb-com-server) behind [coenttb.com](https://coenttb.com) — still runs in production today.
 
 ## Professional Work
 
