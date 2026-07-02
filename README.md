@@ -29,7 +29,7 @@ The Swift Institute ecosystem is in public alpha — released repository by repo
 ### Flagship Projects
 
 **[swift-pdf](https://github.com/swift-foundations/swift-pdf)** (83 stars) - PDF document generation for Swift
-Generates PDF documents from HTML views and Markdown authored with a Swift result-builder DSL.
+Generates PDF documents from HTML views and Markdown authored with a Swift result-builder DSL. Evolved successor to swift-html-to-pdf, transferred with its full history, tags, and stars.
 - Tables with colspan/rowspan and automatic document outlines
 - CSS styling and atomic file writing
 - Single `import PDF`
@@ -68,7 +68,6 @@ The anchor package of the standards layer — every specification package builds
 
 Server-side Swift packages that power production systems, including [coenttb.com](https://coenttb.com):
 
-- [**swift-html-to-pdf**](https://github.com/coenttb/swift-html-to-pdf) (54 stars) - Concurrent HTML-to-PDF rendering with WebView pooling
 - [**swift-records**](https://github.com/coenttb/swift-records) (15 stars) - Type-safe PostgreSQL database layer
 - [**swift-stripe**](https://github.com/coenttb/swift-stripe) - Stripe SDK for server-side Swift
 - [**coenttb-com-server**](https://github.com/coenttb/coenttb-com-server) (10 stars) - 100% Swift production website, type-safe from database to DOM
