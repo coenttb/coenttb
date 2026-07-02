@@ -1,6 +1,6 @@
 # Coen ten Thije Boonkkamp
 
-**Lawyer • Swift Infrastructure Engineer • Founder**
+**Lawyer • Swift Infrastructure Engineer • Founder of Swift Institute**
 
 I see a future where no person again faces the unjust reality that economic differences significantly dictate legal outcomes. To reach that future, we need technology that makes legal services accessible and affordable.
 
@@ -8,7 +8,7 @@ Another reality is that the infrastructure to reach this just isn't there yet.
 
 That's why I build the [Swift Institute](https://github.com/swift-institute) ecosystem: layered, convention-driven Swift infrastructure across [swift-primitives](https://github.com/swift-primitives) (atomic building blocks), [swift-standards](https://github.com/swift-standards) (specification implementations), and [swift-foundations](https://github.com/swift-foundations) (composed systems — I/O, filesystem, HTML, CSS, PDF, networking). Strict memory safety, typed throws, and compile-time guarantees that hold across package boundaries.
 
-And I plan to take all my learnings back to legal. But first:
+Legal technology is where this work is headed — the infrastructure below is how it gets there.
 
 ## Available for contract work
 
@@ -28,25 +28,25 @@ The Swift Institute ecosystem is in public alpha — released repository by repo
 
 ### Flagship Projects
 
-**[swift-pdf](https://github.com/swift-foundations/swift-pdf)** (83 stars) - PDF document generation for Swift
+**[swift-pdf](https://github.com/swift-foundations/swift-pdf)** - PDF document generation for Swift
 Generates PDF documents from HTML views and Markdown authored with a Swift result-builder DSL. Evolved successor to swift-html-to-pdf, transferred with its full history, tags, and stars.
 - Tables with colspan/rowspan and automatic document outlines
 - CSS styling and atomic file writing
 - Single `import PDF`
 
-**[swift-html](https://github.com/swift-foundations/swift-html)** (35 stars) - Type-safe HTML, CSS, and SVG for Swift
+**[swift-html](https://github.com/swift-foundations/swift-html)** - Type-safe HTML, CSS, and SVG for Swift
 One unified import for HTML generation, grounded in the WHATWG and W3C specifications.
 - Compile-time validation of markup and styles
 - Re-exports HTML rendering, CSS, and SVG packages built on swift-standards
 - Optional internationalization via package traits
 
-**[swift-file-system](https://github.com/swift-foundations/swift-file-system)** (22 stars) - Typed filesystem operations for Swift
+**[swift-file-system](https://github.com/swift-foundations/swift-file-system)** - Typed filesystem operations for Swift
 A `File` value type for reading, writing, scoped handles, atomic writes, and directory traversal.
 - Typed throws end-to-end
 - Zero-copy reads and crash-safe atomic writes
 - Sync and async surfaces on a dedicated I/O pool
 
-**[swift-io](https://github.com/swift-foundations/swift-io)** (18 stars) - Async I/O executor for Swift
+**[swift-io](https://github.com/swift-foundations/swift-io)** - Async I/O executor for Swift
 Isolates blocking syscalls from Swift's cooperative thread pool.
 - Dedicated worker threads with bounded queues
 - Deterministic shutdown semantics
@@ -58,7 +58,7 @@ Lints what a regex on source text cannot express.
 - Command-line runner and SARIF output
 - Reusable CI workflow consumed across the ecosystem
 
-**[swift-standards](https://github.com/swift-standards/swift-standards)** (6 stars) - Extensions to the Swift standard library
+**[swift-standards](https://github.com/swift-standards/swift-standards)** - Extensions to the Swift standard library
 The anchor package of the standards layer — every specification package builds on it.
 - Foundation-free
 - Strict memory safety and typed throws
