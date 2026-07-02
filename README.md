@@ -68,9 +68,9 @@ The anchor package of the standards layer — every specification package builds
 
 Server-side Swift packages that power production systems, including [coenttb.com](https://coenttb.com):
 
-- [**swift-records**](https://github.com/coenttb/swift-records) (15 stars) - Type-safe PostgreSQL database layer
+- [**swift-records**](https://github.com/coenttb/swift-records) - Type-safe PostgreSQL database layer
 - [**swift-stripe**](https://github.com/coenttb/swift-stripe) - Stripe SDK for server-side Swift
-- [**coenttb-com-server**](https://github.com/coenttb/coenttb-com-server) (10 stars) - 100% Swift production website, type-safe from database to DOM
+- [**coenttb-com-server**](https://github.com/coenttb/coenttb-com-server) - 100% Swift production website, type-safe from database to DOM
 
 ## Professional Work
 
