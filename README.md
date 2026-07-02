@@ -2,7 +2,7 @@
 
 **Lawyer • Swift Infrastructure Engineer • Founder of Swift Institute**
 
-I see a future where no person again faces the unjust reality that economic differences significantly dictate legal outcomes. To reach that future, we need technology that makes legal services accessible and affordable.
+I see a future where economic differences no longer dictate legal outcomes. To reach that future, we need technology that makes legal services accessible and affordable.
 
 Another reality is that the infrastructure to reach this just isn't there yet.
 
@@ -29,7 +29,7 @@ The Swift Institute ecosystem is in public alpha — released repository by repo
 ### Flagship Projects
 
 **[swift-pdf](https://github.com/swift-foundations/swift-pdf)** - PDF document generation for Swift
-Generates PDF documents from HTML views and Markdown authored with a Swift result-builder DSL. Evolved successor to swift-html-to-pdf, transferred with its full history, tags, and stars.
+Generates PDF documents from HTML views and Markdown authored with a Swift result-builder DSL. Evolved successor to swift-html-to-pdf, transferred with its full history and tags.
 - Tables with colspan/rowspan and automatic document outlines
 - CSS styling and atomic file writing
 - Single `import PDF`
@@ -74,14 +74,14 @@ Server-side Swift packages that power production systems, including [coenttb.com
 
 ## Professional Work
 
-**Legal Advisor** - Bridging law and code for groundbreaking life sciences:
+**Legal Advisor** - Life-sciences research collaborations, IP, data, and grants:
 - [100+ Study](https://100plus.nl) - Amsterdam UMC's pioneering longevity research
 - [Alzheimer Genetics Hub](https://alzheimergenetics.org) - Global genetics collaboration platform
 - [DEMENTREE Biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/) - Advanced dementia research infrastructure
 
 ## Philosophy
 
-I build tools that make wrong things impossible. Every abstraction removes entire classes of errors. My frameworks don't just work - they teach you how to build better systems.
+I build tools that make wrong things impossible. Every abstraction removes entire classes of errors.
 
 **Core beliefs:**
 - Type safety is a feature, not overhead
