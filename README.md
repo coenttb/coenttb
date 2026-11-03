@@ -1,6 +1,6 @@
 # Coen ten Thije Boonkkamp
 
-**Lawyer • Swift Infrastructure Engineer • Founder of Swift Institute**
+**Jurist (Master's in Corporate Law) • Swift Infrastructure Engineer • Founder of Swift Institute**
 
 I see a future where economic differences no longer dictate legal outcomes. To reach that future, we need technology that makes legal services accessible and affordable.
 
@@ -8,7 +8,7 @@ Another reality is that the infrastructure to reach this just isn't there yet.
 
 That's why I build the [Swift Institute](https://github.com/swift-institute) ecosystem: layered, convention-driven Swift infrastructure across [swift-molecules](https://github.com/swift-molecules) (atomic building blocks), [swift-standards](https://github.com/swift-standards) (specification implementations), and [swift-compositions](https://github.com/swift-compositions) (composed systems — I/O, filesystem, HTML, CSS, PDF, networking). Strict memory safety, typed throws, and compile-time guarantees that hold across package boundaries.
 
-Legal technology is where this work is headed — the infrastructure below is how it gets there.
+Legal technology is where this work is headed — the infrastructure below is how it gets there. [Rule Institute](https://github.com/rule-institute) encodes law as typed Swift, starting with Book 2 of the Dutch Civil Code (company law); the code is private, and I'm happy to demo it.
 
 ## Available for contract work
 
@@ -36,6 +36,8 @@ The Swift Institute ecosystem is in public alpha — released repository by repo
 Earlier server-side Swift work — [swift-records](https://github.com/coenttb/swift-records), [swift-stripe](https://github.com/coenttb/swift-stripe), and the production server behind [coenttb.com](https://coenttb.com) — still runs in production today.
 
 ## Professional Work
+
+**Education** - Master's in Corporate Law (ondernemingsrecht).
 
 **Legal Advisor** - Life-sciences research collaborations, IP, data, and grants:
 - [100+ Study](https://100plus.nl) - Amsterdam UMC's pioneering longevity research
