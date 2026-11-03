@@ -18,7 +18,7 @@ Jurist (not an advocaat), specialised in research collaborations in the life sci
 
 Law as code, in development at [rule.law](https://github.com/rule-law). The code is private; I'm happy to give a demo.
 
-AI helps write the rules; the rules then run without AI. Documents stay on the device, using local models only.
+AI helps write the rules; the rules then run without AI. In the tools I build, documents stay on the device with local models by default. Remote models are opt-in, preferring privacy-focused ones such as Apple's Private Cloud Compute.
 
 ### Statutes
 Dutch legislation, the EU treaties, and selected EU regulations and directives, as typed Swift.
