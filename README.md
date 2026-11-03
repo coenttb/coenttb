@@ -4,17 +4,21 @@ Lawyer • Legal Engineer • Software Developer
 
 ## Lawyer
 
-- Legal advisor in life-sciences research: research collaborations, IP, data and grants. Projects include:
-  - [100+ Study](https://100plus.nl), Amsterdam UMC
-  - [Alzheimer Genetics Hub](https://alzheimergenetics.org)
-  - [DEMENTREE Biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/)
-- Previously company lawyer at Intertrust
-- Master's in corporate law (ondernemingsrecht)
-- Practice: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
+Jurist (not an advocaat), specialised in research collaborations in the life sciences, with a background in corporate law.
+
+- **Life sciences, since 2020:** clinical trial and site agreements, consortium agreements, material and data transfer, privacy, grants and licences, for university medical centers, universities and biotech companies.
+  - Lead counsel for the Industry Alliance Office of Amsterdam Neuroscience
+  - Horizon Europe consortia (SIMPATHIC, FRESHAIR4LIFE)
+  - [100+ Study](https://100plus.nl), [Alzheimer Genetics Hub](https://alzheimergenetics.org), [DEMENTREE Biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/)
+- **Corporate, 2017–2019, company lawyer at Intertrust:** incorporations, turboliquidations and other liquidations, appointing and removing directors, corporate housekeeping, trust-office compliance (Wtt, Wft).
+- **LL.M. Corporate Law, Utrecht University.** Thesis: *Handboek ongehoorzaam bestuur*.
+- Practice and recommendations: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
 
 ## Legal Engineer
 
 Law as code, in development at [rule.law](https://github.com/rule-law). The code is private; I'm happy to give a demo.
+
+AI helps write the rules; the rules then run without AI. Documents stay on the device, using local models only.
 
 ### Statutes
 Dutch legislation, the EU treaties, and selected EU regulations and directives, as typed Swift.
