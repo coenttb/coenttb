@@ -65,6 +65,10 @@ Documents and registers for a B.V.:
 - A self-hosted Mac build runner for Claude sessions.
 - A read-only iCloud Mail MCP server.
 
+### Mentions
+- [Fatbobman's Swift Weekly #132](https://fatbobman.com/en/weekly/issue-132/): Swift Institute.
+- [OpenAI's ChatGPT Atlas video](https://www.youtube.com/watch?v=nEwLBO8e0Dw&t=150s): coenttb.com and swift-html-to-pdf, now swift-pdf, on screen.
+
 ## Contact
 
 [coen@coenttb.com](mailto:coen@coenttb.com) · [LinkedIn](https://www.linkedin.com/in/tenthijeboonkkamp) · [X](https://x.com/coenttb)
