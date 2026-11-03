@@ -17,9 +17,9 @@ The law as executable code (in development)
 [rule.law](https://github.com/rule-law)
 
 ### Statutes as code
-- 1,075 Dutch laws and regulations
-- The EU treaties (TEU, TFEU) and 18 EU regulations and directives
-- 820 chapters of the Nevada Revised Statutes
+- Dutch laws and regulations
+- The EU treaties (TEU, TFEU) and EU regulations and directives
+- The Nevada Revised Statutes
 
 ### Personalized Law
 - A view of any statute, just for you. Based on information you provide, or information automatically gathered via AI and confirmed by you, it presents the text of a statute, personalized to you.
