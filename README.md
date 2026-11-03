@@ -2,15 +2,15 @@
 
 Lawyer • Legal Engineer • Software Developer
 
-## Law
+## Lawyer
 
-- Legal advisor for life-sciences research: collaborations, IP, data and grants
+- Legal advisor in life-sciences research: research collaborations, IP, data and grants. Projects include:
   - [100+ Study](https://100plus.nl), Amsterdam UMC
   - [Alzheimer Genetics Hub](https://alzheimergenetics.org)
   - [DEMENTREE Biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/)
-- Practice: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
-- Previously: Company Lawyer at Intertrust
+- Previously company lawyer at Intertrust
 - Master's in corporate law (ondernemingsrecht)
+- Practice: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
 
 ## Legal engineering
 
@@ -45,13 +45,9 @@ Documents and registers for a B.V.:
 - Stock appreciation rights
 - Invoices, letters, agendas, attendance lists, invitations, signature pages
 
-## Software
+## Software Developer
 
-[Swift Institute](https://github.com/swift-institute): 
-- [swift-atoms](https://github.com/swift-atoms),
-- [swift-molecules](https://github.com/swift-molecules),
-- [swift-standards](https://github.com/swift-standards)
-- [swift-compositions](https://github.com/swift-compositions).
+[Swift Institute](https://github.com/swift-institute): Swift packages in layers: [swift-atoms](https://github.com/swift-atoms), [swift-molecules](https://github.com/swift-molecules), [swift-standards](https://github.com/swift-standards) and [swift-compositions](https://github.com/swift-compositions).
 
 | Package | What it does |
 |---|---|
@@ -60,7 +56,10 @@ Documents and registers for a B.V.:
 | [swift-file-system](https://github.com/swift-compositions/swift-file-system) | Filesystem operations: scoped handles, atomic writes, zero-copy reads |
 | [swift-io-kernel](https://github.com/swift-compositions/swift-io-kernel) | Async I/O executor for blocking system calls |
 
-Agent tooling: a self-hosted Mac build runner for Claude sessions, a read-only iCloud Mail MCP server, and Birdwatch, a menu bar app that finds stuck Swift and Xcode processes.
+### Agent tooling
+- **Birdwatch** (Mac): a menu bar app that finds stuck Swift and Xcode processes.
+- A self-hosted Mac build runner for Claude sessions.
+- A read-only iCloud Mail MCP server.
 
 ## Contact
 
