@@ -57,7 +57,7 @@ Documents and registers for a B.V.:
 | [swift-io-kernel](https://github.com/swift-compositions/swift-io-kernel) | Async I/O executor for blocking system calls |
 
 ### Agent tooling
-- **Birdwatch** (Mac): a menu bar app that finds stuck Swift and Xcode processes.
+- **[Birdwatch](https://coenttb.com/birdwatch)** (Mac): a menu bar app that finds stuck Swift and Xcode processes. Released and for sale, with licensing, checkout and terms.
 - A self-hosted Mac build runner for Claude sessions.
 - A read-only iCloud Mail MCP server.
 
