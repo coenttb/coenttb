@@ -1,6 +1,6 @@
 # Coen ten Thije Boonkkamp
 
-**Jurist (Master's in Corporate Law) • Swift Infrastructure Engineer • Founder of Swift Institute**
+**Lawyer • Legal Engineer • Software Developer**
 
 I see a future where economic differences no longer dictate legal outcomes. To reach that future, we need technology that makes legal services accessible and affordable.
 
