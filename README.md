@@ -12,7 +12,7 @@ Lawyer • Legal Engineer • Software Developer
 - Master's in corporate law (ondernemingsrecht)
 - Practice: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
 
-## Legal engineering
+## Legal Engineer
 
 Law as code, in development at [rule.law](https://github.com/rule-law). The code is private; I'm happy to give a demo.
 
