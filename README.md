@@ -22,7 +22,7 @@ Dutch legislation, the EU treaties, and selected EU regulations and directives, 
 ### Personalized law
 A statute as it reads for you. You answer its questions, or confirm answers drawn from your documents; the text then uses your name, leaves out what does not apply, and works out the facts the law turns on.
 
-- **Book 2 Dutch Civil Code.** "The private company" becomes "Your Name B.V.", provisions for public companies drop out, and it works out the company's size category and whether it qualifies for (turbo)liquidation.
+- **Book 2 Dutch Civil Code.** "The private company" becomes "Your Name B.V.", provisions for public companies drop out, and it works out the company's size category and whether it qualifies for (turbo)liquidation, calculates relevant statutory dates and deadlines (takes into consideration Algemene Termijnenwet).
 - **EU Regulation 261/2004.** Passenger rights when a flight is cancelled or delayed.
 
 ### Tax and procedure
@@ -32,8 +32,8 @@ A statute as it reads for you. You answer its questions, or confirm answers draw
 - Tax collection (invordering)
 
 ### Apps
-- **Laurie** (Mac, iPhone): collects documents from Dutch government, pension, insurer and bank portals and reads them on the device.
-- **Kees** (Mac): names documents and writes their metadata, on the device.
+- **Kees** (Mac): names documents and updates their metadata (such as letter dates, identifiers, senders, addressees) using local AI;
+- **Laurie** (Mac, iPhone): collects documents from Dutch government, pension, insurer and bank portals. Proactively informs you of missing documents, due dates, and other actionable information.
 
 ### Corporate housekeeping
 Documents and registers for a B.V.:
