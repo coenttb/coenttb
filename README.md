@@ -6,7 +6,7 @@ I see a future where economic differences no longer dictate legal outcomes. To r
 
 Another reality is that the infrastructure to reach this just isn't there yet.
 
-That's why I build the [Swift Institute](https://github.com/swift-institute) ecosystem: layered, convention-driven Swift infrastructure across [swift-molecules](https://github.com/swift-molecules) (atomic building blocks), [swift-standards](https://github.com/swift-standards) (specification implementations), and [swift-compositions](https://github.com/swift-compositions) (composed systems — I/O, filesystem, HTML, CSS, PDF, networking). Strict memory safety, typed throws, and compile-time guarantees that hold across package boundaries.
+That's why I build the [Swift Institute](https://github.com/swift-institute) ecosystem: layered, convention-driven Swift infrastructure across [swift-atoms](https://github.com/swift-atoms) and [swift-molecules](https://github.com/swift-molecules) (atomic building blocks), [swift-standards](https://github.com/swift-standards) (specification implementations), and [swift-compositions](https://github.com/swift-compositions) (composed systems — I/O, filesystem, HTML, CSS, PDF, networking). Strict memory safety, typed throws, and compile-time guarantees that hold across package boundaries.
 
 Legal technology is where this work is headed — the infrastructure below is how it gets there. [Rule Institute](https://github.com/rule-institute) encodes law as typed Swift, starting with Book 2 of the Dutch Civil Code (company law); the code is private, and I'm happy to demo it.
 
