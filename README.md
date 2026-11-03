@@ -10,14 +10,19 @@ Lawyer • Legal Engineer • Software Developer
   - [Alzheimer Genetics Hub](https://alzheimergenetics.org)
   - [DEMENTREE Biobank](https://www.alzheimercentrum.nl/wetenschap/lopend-onderzoek/biobank-dementree/)
 - Practice: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
+- Previously Company Lawyer at Intertrust
 
 ## Legal engineering
-The law as executable code (private)
+The law as executable code (in development) 
 [rule.law](https://github.com/rule-law)
 
 ## Software
 
-[Swift Institute](https://github.com/swift-institute): layered Swift packages in [swift-atoms](https://github.com/swift-atoms), [swift-molecules](https://github.com/swift-molecules), [swift-standards](https://github.com/swift-standards) and [swift-compositions](https://github.com/swift-compositions).
+[Swift Institute](https://github.com/swift-institute): 
+- [swift-atoms](https://github.com/swift-atoms),
+- [swift-molecules](https://github.com/swift-molecules),
+- [swift-standards](https://github.com/swift-standards)
+- [swift-compositions](https://github.com/swift-compositions).
 
 | Package | What it does |
 |---|---|
