@@ -16,6 +16,11 @@ Lawyer • Legal Engineer • Software Developer
 The law as executable code (in development) 
 [rule.law](https://github.com/rule-law)
 
+### Statutes as code
+- 1,075 Dutch laws and regulations
+- The EU treaties (TEU, TFEU) and 18 EU regulations and directives
+- 820 chapters of the Nevada Revised Statutes
+
 ### Personalized Law
 - A view of any statute, just for you. Based on information you provide, or information automatically gathered via AI and confirmed by you, it presents the text of a statute, personalized to you.
 
@@ -24,6 +29,18 @@ Presents the text of a statute, but with your actual name. So instead of 'the pr
 
 #### EU 261 / FlightRight
 Determine the rights when your flight is cancelled or delayed. 
+
+### Tax and procedure
+Composed from the statutes that govern them:
+
+- VAT per purchase line: treatment, when it is due, the small business scheme, filing and payment deadlines (Wet OB 1968)
+- Income tax and wage tax (Wet IB 2001, Wet LB 1964)
+- The objection deadline against a tax assessment or benefits decision: its last day, and whether an objection is in time, excused though late, or too late (Awb)
+- Tax collection (invordering)
+
+### Documents
+- Laurie: a Mac and iPhone app that collects documents from Dutch government, pension, insurer and bank portals and reads them on the device: payslips, annual statements, pension letters
+- Kees: a Mac app that names documents and writes their metadata, on the device
 
 ### Corporate Housekeeper
 A selection of tools I've developed:
@@ -37,6 +54,7 @@ A selection of tools I've developed:
   - STAK issuance of certificates of shares
   - agreements for the transfer of certificates of shares
 - Stock Appreciation Rights
+- Business documents: invoices, letters, agendas, attendance lists, invitations, signature pages
 
 ## Software
 
@@ -52,6 +70,8 @@ A selection of tools I've developed:
 | [swift-html](https://github.com/swift-compositions/swift-html) | HTML, CSS and SVG as Swift types, following the WHATWG and W3C specs |
 | [swift-file-system](https://github.com/swift-compositions/swift-file-system) | Filesystem operations: scoped handles, atomic writes, zero-copy reads |
 | [swift-io-kernel](https://github.com/swift-compositions/swift-io-kernel) | Async I/O executor for blocking system calls |
+
+Agent tooling: a self-hosted Mac build runner for Claude sessions, a read-only iCloud Mail MCP server, and Birdwatch, a menu bar app that finds stuck Swift and Xcode processes.
 
 ## Contact
 
