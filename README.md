@@ -6,7 +6,7 @@ I see a future where economic differences no longer dictate legal outcomes. To r
 
 Another reality is that the infrastructure to reach this just isn't there yet.
 
-That's why I build the [Swift Institute](https://github.com/swift-institute) ecosystem: layered, convention-driven Swift infrastructure across [swift-primitives](https://github.com/swift-primitives) (atomic building blocks), [swift-standards](https://github.com/swift-standards) (specification implementations), and [swift-foundations](https://github.com/swift-foundations) (composed systems — I/O, filesystem, HTML, CSS, PDF, networking). Strict memory safety, typed throws, and compile-time guarantees that hold across package boundaries.
+That's why I build the [Swift Institute](https://github.com/swift-institute) ecosystem: layered, convention-driven Swift infrastructure across [swift-molecules](https://github.com/swift-molecules) (atomic building blocks), [swift-standards](https://github.com/swift-standards) (specification implementations), and [swift-compositions](https://github.com/swift-compositions) (composed systems — I/O, filesystem, HTML, CSS, PDF, networking). Strict memory safety, typed throws, and compile-time guarantees that hold across package boundaries.
 
 Legal technology is where this work is headed — the infrastructure below is how it gets there.
 
@@ -28,13 +28,12 @@ The Swift Institute ecosystem is in public alpha — released repository by repo
 
 | Project | What it is |
 |---|---|
-| [swift-pdf](https://github.com/swift-foundations/swift-pdf) | PDF generation from HTML views and Markdown — successor to swift-html-to-pdf |
-| [swift-html](https://github.com/swift-foundations/swift-html) | Type-safe HTML, CSS, and SVG, grounded in the WHATWG and W3C specs |
-| [swift-file-system](https://github.com/swift-foundations/swift-file-system) | Typed filesystem operations — scoped handles, atomic writes, zero-copy reads |
-| [swift-io](https://github.com/swift-foundations/swift-io) | Async I/O executor isolating blocking syscalls — benchmarked against NIOThreadPool |
-| [swift-standards](https://github.com/swift-standards/swift-standards) | The standard-library extensions every specification package builds on |
+| [swift-pdf](https://github.com/swift-compositions/swift-pdf) | PDF generation from HTML views and Markdown — successor to swift-html-to-pdf |
+| [swift-html](https://github.com/swift-compositions/swift-html) | Type-safe HTML, CSS, and SVG, grounded in the WHATWG and W3C specs |
+| [swift-file-system](https://github.com/swift-compositions/swift-file-system) | Typed filesystem operations — scoped handles, atomic writes, zero-copy reads |
+| [swift-io-kernel](https://github.com/swift-compositions/swift-io-kernel) | Async I/O executor isolating blocking syscalls — benchmarked against NIOThreadPool |
 
-Earlier server-side Swift work — [swift-records](https://github.com/coenttb/swift-records), [swift-stripe](https://github.com/coenttb/swift-stripe), and the [production server](https://github.com/coenttb/coenttb-com-server) behind [coenttb.com](https://coenttb.com) — still runs in production today.
+Earlier server-side Swift work — [swift-records](https://github.com/coenttb/swift-records), [swift-stripe](https://github.com/coenttb/swift-stripe), and the production server behind [coenttb.com](https://coenttb.com) — still runs in production today.
 
 ## Professional Work
 
@@ -52,13 +51,6 @@ I build tools that make wrong things impossible. Every abstraction removes entir
 - Swift's future extends far beyond Apple platforms
 - The best code is code that guides its users
 - Building in public accelerates everyone's learning
-
-## Recent Writing
-
-- [From Broke to Building in Public](https://www.coenttb.com/blog/1-from-broke-to-building-in-public-open-sourcing-coenttb-com) - Why I open-sourced my business
-- [A Journey Building HTML Documents in Swift](https://www.coenttb.com/blog/2-a-journey-building-html-documents-in-swift) - Evolution of type-safe HTML
-- [A Tour of PointFreeHTML](https://www.coenttb.com/blog/3-a-tour-of-pointfreehtml) - Deep dive into HTML DSLs
-- [Modern Swift Library Architecture](https://www.coenttb.com/blog/4-modern-swift-library-architecture-1-the-swift-package) - Building modular systems
 
 ## Let's Connect
 
