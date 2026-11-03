@@ -13,42 +13,37 @@ Lawyer • Legal Engineer • Software Developer
 - Master's in corporate law (ondernemingsrecht)
 
 ## Legal engineering
-The law as executable code (in development) 
-[rule.law](https://github.com/rule-law)
 
-### Statutes as code
+Law as code, in development at [rule.law](https://github.com/rule-law). The code is private; I'm happy to give a demo.
 
-### Personalized Law
-A view of any statute, just for you. Based on information you provide, or information automatically gathered via AI and confirmed by you, it presents the text of a statute, personalized to you. Some examples:
+### Statutes
+Dutch legislation, the EU treaties, and selected EU regulations and directives, as typed Swift.
 
-- **Book 2 Dutch Civil Code.** Presents the text of a statute, but with your actual name. So instead of 'the private company', it shows Your Name B.V. Filters sections that do not apply, such as sections for public companies in case you're a private company. Calculates (legal) facts, such as whether you are a small, medium, or large company, or whether you qualify for (turbo)liquidation.
-- EU 261 / FlightRight.** Determine the rights when your flight is cancelled or delayed. 
+### Personalized law
+A statute as it reads for you. You answer its questions, or confirm answers drawn from your documents; the text then uses your name, leaves out what does not apply, and works out the facts the law turns on.
+
+- **Book 2 Dutch Civil Code.** "The private company" becomes "Your Name B.V.", provisions for public companies drop out, and it works out the company's size category and whether it qualifies for (turbo)liquidation.
+- **EU Regulation 261/2004.** Passenger rights when a flight is cancelled or delayed.
 
 ### Tax and procedure
-Composed from the statutes that govern them:
-
-- VAT per purchase line: treatment, when it is due, the small business scheme, filing and payment deadlines (Wet OB 1968)
+- VAT on a purchase: its treatment, when it is due, the small business scheme, and the filing and payment deadlines (Wet OB 1968)
 - Income tax and wage tax (Wet IB 2001, Wet LB 1964)
-- The objection deadline against a tax assessment or benefits decision: its last day, and whether an objection is in time, excused though late, or too late (Awb)
+- The objection period against a tax assessment or benefits decision: its last day, and whether an objection is in time, excusably late, or too late (Awb)
 - Tax collection (invordering)
 
-### Applications
-- Laurie: a Mac and iPhone app that collects documents from Dutch government, pension, insurer and bank portals and reads them on the device using local AI: payslips, annual statements, pension letters.
-- Kees: a Mac app that names documents and writes their metadata, on the device
+### Apps
+- **Laurie** (Mac, iPhone): collects documents from Dutch government, pension, insurer and bank portals and reads them on the device.
+- **Kees** (Mac): names documents and writes their metadata, on the device.
 
-### Corporate Housekeeper
-A selection of tools I've developed:
+### Corporate housekeeping
+Documents and registers for a B.V.:
 
-- Shareholders' Register
-- Convocation of corporate meetings (shareholders, board of directors)
-- Appointment and removal of corporate directors
-- Certification of Shares
-  - STAK deed of incorporation
-  - STAK terms and conditions
-  - STAK issuance of certificates of shares
-  - agreements for the transfer of certificates of shares
-- Stock Appreciation Rights
-- Business documents: invoices, letters, agendas, attendance lists, invitations, signature pages
+- Shareholders' register
+- Notice of general and board meetings
+- Appointment and removal of directors
+- Depositary receipts for shares (STAK): deed of incorporation, administration conditions, issuance, transfer
+- Stock appreciation rights
+- Invoices, letters, agendas, attendance lists, invitations, signature pages
 
 ## Software
 
