@@ -1,6 +1,6 @@
 # Coen ten Thije Boonkkamp
 
-Lawyer • Legal Engineer • Software Developer · Utrecht
+Lawyer • Legal Engineer • Software Developer
 
 ## Law
 
@@ -12,8 +12,8 @@ Lawyer • Legal Engineer • Software Developer · Utrecht
 - Practice: [tenthijeboonkkamp.nl](https://tenthijeboonkkamp.nl)
 
 ## Legal engineering
-
-[Rule Institute](https://github.com/rule-institute): law as typed Swift. Book 2 of the Dutch Civil Code (company law) is encoded. The code is private; demo on request.
+The law as executable code (private)
+[rule.law](https://github.com/rule-law)
 
 ## Software
 
@@ -25,8 +25,6 @@ Lawyer • Legal Engineer • Software Developer · Utrecht
 | [swift-html](https://github.com/swift-compositions/swift-html) | HTML, CSS and SVG as Swift types, following the WHATWG and W3C specs |
 | [swift-file-system](https://github.com/swift-compositions/swift-file-system) | Filesystem operations: scoped handles, atomic writes, zero-copy reads |
 | [swift-io-kernel](https://github.com/swift-compositions/swift-io-kernel) | Async I/O executor for blocking system calls |
-
-Earlier: [swift-records](https://github.com/coenttb/swift-records), [swift-stripe](https://github.com/coenttb/swift-stripe), and the server behind [coenttb.com](https://coenttb.com).
 
 ## Contact
 
