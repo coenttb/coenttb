@@ -17,18 +17,12 @@ The law as executable code (in development)
 [rule.law](https://github.com/rule-law)
 
 ### Statutes as code
-- Dutch laws and regulations
-- The EU treaties (TEU, TFEU) and EU regulations and directives
-- The Nevada Revised Statutes
 
 ### Personalized Law
-- A view of any statute, just for you. Based on information you provide, or information automatically gathered via AI and confirmed by you, it presents the text of a statute, personalized to you.
+A view of any statute, just for you. Based on information you provide, or information automatically gathered via AI and confirmed by you, it presents the text of a statute, personalized to you. Some examples:
 
-#### Book 2 Dutch Civil Code. 
-Presents the text of a statute, but with your actual name. So instead of 'the private company', it shows Your Name B.V. Filters sections that do not apply, such as sections for public companies in case you're a private company. Calculates (legal) facts, such as whether you are a small, medium, or large company, or whether you qualify for (turbo)liquidation.
-
-#### EU 261 / FlightRight
-Determine the rights when your flight is cancelled or delayed. 
+- **Book 2 Dutch Civil Code.** Presents the text of a statute, but with your actual name. So instead of 'the private company', it shows Your Name B.V. Filters sections that do not apply, such as sections for public companies in case you're a private company. Calculates (legal) facts, such as whether you are a small, medium, or large company, or whether you qualify for (turbo)liquidation.
+- EU 261 / FlightRight.** Determine the rights when your flight is cancelled or delayed. 
 
 ### Tax and procedure
 Composed from the statutes that govern them:
@@ -38,8 +32,8 @@ Composed from the statutes that govern them:
 - The objection deadline against a tax assessment or benefits decision: its last day, and whether an objection is in time, excused though late, or too late (Awb)
 - Tax collection (invordering)
 
-### Documents
-- Laurie: a Mac and iPhone app that collects documents from Dutch government, pension, insurer and bank portals and reads them on the device: payslips, annual statements, pension letters
+### Applications
+- Laurie: a Mac and iPhone app that collects documents from Dutch government, pension, insurer and bank portals and reads them on the device using local AI: payslips, annual statements, pension letters.
 - Kees: a Mac app that names documents and writes their metadata, on the device
 
 ### Corporate Housekeeper
