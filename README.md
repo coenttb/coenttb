@@ -1,10 +1,10 @@
 # Coen ten Thije Boonkkamp
 
-Lawyer, legal engineer, software developer
+Lawyer, legal engineer and software developer.
 
 ## Lawyer
 
-Jurist, specialised in research collaborations in the life sciences, with a background in corporate law.
+Lawyer, specialised in research collaborations in the life sciences, with a background in corporate law.
 
 - **Life sciences, since 2020:** clinical trial and site agreements, consortium agreements, material and data transfer, privacy, grants and licences, for university medical centers, universities and biotech companies.
   - Lead counsel for the Industry Alliance Office of Amsterdam Neuroscience
