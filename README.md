@@ -1,6 +1,6 @@
 # Coen ten Thije Boonkkamp
 
-Lawyer, legal engineer and software developer.
+Lawyer, legal engineer, software developer
 
 ## Lawyer
 
